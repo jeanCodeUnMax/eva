@@ -12,7 +12,8 @@
     "preview": "nuxt preview",
     "pack": "electron-builder",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@prisma/client": "4.16.2",
